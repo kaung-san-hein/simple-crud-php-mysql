@@ -1,0 +1,140 @@
+/* start menu styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+li:last-child {
+  border-right: none;
+}
+.active {
+  background-color: #0ee00e;
+}
+/* end menu styles */
+
+/* start form styles */
+input[type="text"],
+input[type="file"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"],
+input[type="reset"] {
+  width: 45%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form-bg {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* end form styles */
+
+/* start footer styles */
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+}
+/* end footer styles */
+
+/* start student table styles */
+#students {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#students td,
+#students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#students tr:hover {
+  background-color: #ddd;
+}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+/* end student table styles */
+
+/* start action button styles */
+.edit-button {
+  background-color: #616edf;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ec5b67;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* end action button styles */
